@@ -514,5 +514,13 @@ margin-top: 2.5px;
     background-blend-mode: darken;
 
 }
+    .nav-list li
+{
+    list-style: none;
+    padding: 26px 30px;
+    margin-left: 0px;
+   
+   
+}
 
 }
