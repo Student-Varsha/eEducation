@@ -52,8 +52,8 @@
 }
 .logo
 {
-    width:27%;
-    height: 27%;
+    width:2.5vmax;
+    height: 2.5vmax;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -61,8 +61,8 @@
 }
 .logo img
 {
-    width:27%;
-    height: 27%;
+    width: 2.5vmax;
+    height: 2.5vmax;
     border:2px solid white;
     border-radius: 50%;
     
@@ -77,12 +77,13 @@
     border: 1px solid transparent;
     box-shadow: #5d5d5d;
     margin-right: 4px;
+    padding-left: 15px;
 }
 .btnsmall
 {
     width:60px;
     height:30px;
-    background-color: grey;
+    background: none;
     color:white;
     border-radius: 8px;
     margin-right: 2px;
@@ -235,4 +236,267 @@ color: white;
 vertical-align: middle;
 margin-top: 2.5px;
 padding-left: 8px;
+}
+.line
+{
+    width:33px;
+    background-color: white;
+    height:3px;
+    margin: 5px 5px;
+
+}
+.burger
+{
+    display: none;
+    position:absolute;
+    cursor: pointer;
+    right:5%;
+    top:15px;
+}
+
+@media only screen and (max-width:1080px)
+{
+    .nav-list{
+        flex-direction: row;
+    }
+    .navbar
+    {
+        flex-direction: column;
+        
+    }
+    .rightnav
+    {
+        flex-direction: column ;
+    }
+    #search
+    {
+        width:100%;
+    }
+    .burger{
+        display: block;
+        
+    }
+    
+    .h-nav
+    {
+     height:60px;
+
+    }
+    .v-class
+    {
+        opacity: 0;
+    }
+    .boxmain
+    {
+     flex-direction: column-reverse;
+     max-width: 100%;
+
+    }
+    .secright{
+        flex-direction: column;
+
+    }
+    .logo
+    {
+       
+        display: flex;
+        justify-content: start;
+        align-items: center;
+       margin: 60px 0 0 20px;
+       
+        width: 5vmax;
+        height: 5vmax;
+        
+    }
+    .logo img
+{
+    width: 5vmax;
+    height: 5vmax;
+    border:2px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+
+}
+.boxmain
+{
+display: flex;
+justify-content: center;
+align-items: center;
+color:white;
+font-family: Arial, Helvetica, sans-serif;
+max-width: 50%;
+margin: auto;
+height:90%;
+
+}
+.firsthalf
+{
+width:100%;
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+.secondhalf
+{
+width:auto;
+
+}
+.secondhalf img{
+    
+    width:70%;
+    border:2px solid white;
+    border-radius: 20px;
+    display: block;
+    margin: auto ;
+    height:150px;
+    width:150px;
+    margin-bottom: 20px;
+}
+.firstsection
+{
+    height:100vh;
+
+}
+
+.firsthalf
+{
+height:70%;
+display: flex;
+justify-content: center;
+align-items: start;
+flex-direction: column;
+
+}
+.secondhalf
+{
+height:30%;
+
+}
+.secondhalf img{
+    
+    width:70%;
+    border:2px solid white;
+    border-radius: 50%;
+    display: block;
+    
+    height:150px;
+    width:150px;
+}
+.text-big
+{
+font-size:20px ;
+}
+.text-small
+{
+font-size:14px ;
+padding: 6px 6px 6px 0 ;
+}
+.btn{
+    padding:6px 18px;
+    margin: 7px 0;
+    border:2px solid white;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-right: 8px;
+   background: none;
+   color: white;
+   
+    cursor: pointer;
+}
+.secright
+{
+   
+   
+    height:80vh;
+    display: flex;
+    align-items: start;
+    max-width: 100%;
+    margin: auto;
+   
+    
+
+    
+}
+.para
+{
+    padding: 0 65px;
+}
+
+.sectiontag1
+{
+font-size:40px ;
+color:white;
+}
+.sectiontag2
+{
+font-size:20px ;
+padding: 6px 6px 6px 0 ;
+color: white;
+}
+
+.btnsec
+{
+    width:150px;
+    height:50px;
+    /* margin-right: 50px; */
+    font-size: 20px;
+    color: white;
+    background: none;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 2px solid white;
+
+}
+.contact
+{ 
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    padding-left: 10px;
+
+}
+.number
+{
+    
+    font-size: 18px;
+vertical-align: middle;
+margin-top: 2.5px;
+padding-left: 8px;
+
+
+
+    
+}
+.background
+{
+   
+    background: rgba(0,0,0,0.7) url('education\ \(1\).jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+
+}
+.background1
+{ 
+    background: rgba(0,0,0,0.7) url('education\ \(1\).jpg');
+    background-size:cover;
+    background-blend-mode: darken;
+    
+
+}
+
+.background3
+{
+    
+    background: rgba(0,0,0,0.7) url('students.webp');
+    background-size:cover;
+    background-blend-mode: darken;
+
+}
+
 }
